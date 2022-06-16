@@ -1,0 +1,16 @@
+li{
+    color: yellow;
+}
+li a{
+    color: blue;
+}
+
+h4{
+    color: red;
+}
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d2/Voyager.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
