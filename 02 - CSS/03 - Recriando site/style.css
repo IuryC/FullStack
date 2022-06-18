@@ -1,0 +1,19 @@
+h1{
+    color: white;
+}
+
+body{
+    background-color: #263944;
+}
+h4{
+    color: goldenrod;
+}
+
+h3{
+    border: 3px black solid;
+    background-color: yellow;
+}
+
+.textoVermelho{
+    color: red;
+}

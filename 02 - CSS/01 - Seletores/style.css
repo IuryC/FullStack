@@ -1,12 +1,12 @@
 li{
-    color: yellow;
+    color: wheat;
 }
 li a{
-    color: blue;
+    color: wheat;
 }
 
 h4{
-    color: red;
+    color: white;
 }
 
 body{
@@ -14,3 +14,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+h1 + h4{
+    border: 2px dashed;
+}
+h1{
+    color: white;
+}
+
+a[href='/recibo']{
+    color: orange;
+}
+ 
