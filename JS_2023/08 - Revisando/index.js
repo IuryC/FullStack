@@ -7,4 +7,4 @@ for(let i = spaceshipName.length - 1; i >= 0; i--){
     invertedName += spaceshipName[i]
 }
 
-console.log(invertedName)
+alert("Nome original: " + spaceshipName + "\nNome após ocultação: " + invertedName)
