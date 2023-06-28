@@ -10,4 +10,4 @@ for(let i = 0; i < spaceshipName.length; i++){
         newSpaceship += spaceshipName[i]
     }
 }
-console.log(newSpaceship)
+alert(newSpaceship)
