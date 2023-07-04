@@ -1,9 +1,15 @@
-let spaceshipVelocity = 150
-function speedDown(){
-    let newVelocity = spaceshipVelocity - 20
-    return newVelocity
+function slowDown(velocity, printer){
+    let deceleration = 20
+
+    while(velocity > 0){
+        printer(velocity)
+        velocity -= deceleration
+    }
+    alert("Nave parada, as comportas podem ser abertas.")
 }
 
+let spaceshipVelocity = 150  
 
-
-
+slowDown(spaceshipVelocity, function(velocity){
+    console.log("Velocidade atual: " + velocity)
+})
