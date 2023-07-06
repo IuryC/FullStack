@@ -16,3 +16,18 @@ let spaceships = [
 ]
 
 console.log(spaceships[1].crewQuantity)
+
+spaceships.forEach(spaceship => {
+    alert(spaceship.name + " tem " + spaceship.crewQuantity + " tripulantes")
+})
+
+let nave = {
+    name: "Golias",
+    maxCrew: 20,
+    captain: {
+        name: "Hugo Trent",
+        age: 37
+    }
+}
+
+console.log(nave.captain.name)
