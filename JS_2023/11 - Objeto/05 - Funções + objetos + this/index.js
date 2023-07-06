@@ -14,3 +14,6 @@ spaceship.velocity = 0
 spaceship.speedUp = function(acceleration){
     this.velocity += acceleration
 }
+
+spaceship.speedUp(10)
+console.log(spaceship)
