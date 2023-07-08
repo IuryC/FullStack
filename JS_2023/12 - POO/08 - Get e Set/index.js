@@ -19,8 +19,8 @@ console.log(spaceship)
 
 class ResourceProcessStation {
     constructor(name, monthlyProcessedLoad){
-        this.name
-        this.monthlyProcessedLoad
+        this.name = name
+        this.monthlyProcessedLoad = monthlyProcessedLoad
     }
     get weekProcessedLoad(){
         return this.monthlyProcessedLoad / 4
@@ -28,4 +28,7 @@ class ResourceProcessStation {
 }
 
 let resourceProcessor = new ResourceProcessStation("Sunny", 500)
+console.log(resourceProcessor.weekProcessedLoad)
+
+resourceProcessor.monthlyProcessedLoad = 600
 console.log(resourceProcessor.weekProcessedLoad)
