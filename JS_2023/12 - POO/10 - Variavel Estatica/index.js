@@ -11,3 +11,7 @@ class Spaceship {
         this.currentVelocity += (acceleration * (1 - Spaceship.decelearationRate))
     }
 }
+
+let spaceship = new Spaceship("Apollo")
+spaceship.speedUp(100)
+console.log(spaceship)
