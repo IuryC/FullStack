@@ -1,6 +1,6 @@
 class SpaceshipWeapon {
     constructor(identifier) {
-        this.identifier
+        this.identifier = identifier
         this.shotsLeft = 5
     }
 
@@ -9,7 +9,7 @@ class SpaceshipWeapon {
         console.log("Bang!")
         this.shotsLeft -= 1
         } else {
-            throw new Error("Arma" + this.identifier + " sem munição")
+            throw new Error("Arma " + this.identifier + " sem munição")
         }
     }
 }
