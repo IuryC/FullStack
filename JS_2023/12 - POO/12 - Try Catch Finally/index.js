@@ -28,6 +28,8 @@ try {
 } catch(e) {
     console.log(e.message)
     fenixWeapon.reload()
+} finally {
+    console.log("Arma deu bons tiros")
 }
  
 console.log(fenixWeapon)
