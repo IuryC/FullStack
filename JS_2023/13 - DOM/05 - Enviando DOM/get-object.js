@@ -4,5 +4,5 @@ function sayMyFirstName(element) {
 
 function sayMyLastName(element) {
     console.log(event)
-    alert("Meu último nome é " + element.target.value)
+    alert("Meu último nome é " + event.target.value)
 }
