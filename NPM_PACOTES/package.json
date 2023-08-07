@@ -1,0 +1,27 @@
+{
+  "name": "npm_class",
+  "version": "1.0.0",
+  "description": "Aula para estudar NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IuryC/FullStack.git"
+  },
+  "keywords": [
+    "NPM",
+    "class",
+    "Study"
+  ],
+  "author": "Iury C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IuryC/FullStack/issues"
+  },
+  "homepage": "https://github.com/IuryC/FullStack#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
