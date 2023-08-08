@@ -13,5 +13,8 @@
     "@babel/core": "^7.22.10",
     "@babel/preset-env": "^7.22.10"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "core-js": "^3.32.0"
+  }
 }
