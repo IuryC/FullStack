@@ -1,6 +1,9 @@
 const path = require("path")
 
 module.exports = {
+
+    mode: 'development',
+
     entry: {
         index: './src/index.js',
         galaxy: './src/galaxy.js'
@@ -17,5 +20,14 @@ module.exports = {
             use: ['babel-loader']
         }
         ]
-    }
+    },
+
+    watch: true,
+
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        static: './dist',
+        liveReload: true
+    },
+
 }
