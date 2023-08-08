@@ -15,7 +15,7 @@
   \***********************/
 /***/ (() => {
 
-eval("alert(\"Bem vindo à via lactea\")\n\n//# sourceURL=webpack://09---webpack/./src/galaxy.js?");
+eval("alert(\"Bem vindo à via lactea\");\n\n//# sourceURL=webpack://09---webpack/./src/galaxy.js?");
 
 /***/ })
 
